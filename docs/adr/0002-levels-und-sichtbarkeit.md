@@ -11,7 +11,7 @@ Datum: 25.11.2026 · Status: entschieden
   Event-Zugang. Die ursprünglich geplante Variante für 499 entfällt.
 - Höhere Levels sehen alle Profile darunter, tiefere sehen nicht nach oben.
   Antworten auf eine Nachricht von oben ist immer möglich.
-- Das Ultra-Event am 17. Juni ist Bernina vorbehalten, die Quartalstreffen
+- Das Ultra-Event am 18. Juni ist Bernina vorbehalten, die Quartalstreffen
   stehen allen vier Levels offen.
 
 ## Gründe

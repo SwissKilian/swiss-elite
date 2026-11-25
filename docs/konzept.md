@@ -74,7 +74,7 @@ gelten in beiden Phasen. In Phase 1 wendet der Gründer sie von Hand an.
 
 | Anlass          | Wann                   | Wo                       | Zugang           |
 | --------------- | ---------------------- | ------------------------ | ---------------- |
-| Gründertag      | Jedes Jahr am 17. Juni | Graubünden, Ort wechselt | Nur Bernina      |
+| Gründertag      | Jedes Jahr am 18. Juni | Graubünden, Ort wechselt | Nur Bernina      |
 | Quartalstreffen | Einmal pro Quartal     | Chur und Umgebung        | Alle vier Levels |
 
 - Tickets kosten extra und laufen über denselben Zahlungsanbieter wie die
@@ -83,12 +83,12 @@ gelten in beiden Phasen. In Phase 1 wendet der Gründer sie von Hand an.
 - Ab Kesch ein Gast pro Quartalstreffen, mit eigenem Ticket.
 - Check-in per QR-Code auf der Wallet-Karte oder der physischen Karte.
 - Solitaire hat keinen Event-Zugang.
-- Ausnahme: Der erste Gründertag am 17. Juni 2028 steht allen vier Stufen
+- Ausnahme: Der erste Gründertag am 18. Juni 2028 steht allen vier Stufen
   offen. Ab 2029 ist er Bernina vorbehalten (ADR 0007).
 
 ## Aufbau bis zum ersten Gründertag
 
-Der erste Anlass überhaupt ist der Gründertag am 17. Juni 2028. Vorher gibt
+Der erste Anlass überhaupt ist der Gründertag am 18. Juni 2028. Vorher gibt
 es keine Quartalstreffen, der erste Stamm folgt im Herbst 2028 (ADR 0007).
 
 - Bis Ende 2027 reserviert ein Gründerkreis gratis eine Mitgliedsnummer.

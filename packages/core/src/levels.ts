@@ -53,7 +53,7 @@ export const LEVELS: readonly Level[] = [
     rank: 4,
     monthlyChf: 250,
     diamond: "Schwarz",
-    adds: "Ultra-Event am 17. Juni",
+    adds: "Ultra-Event am 18. Juni",
   },
 ];
 
