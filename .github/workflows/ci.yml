@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  # Nur bei PRs, kein Lauf nach dem Merge: Der PR wurde schon geprüft. Dafür wird ein PR
+  # vor dem Merge auf den Stand von main gebracht (AGENTS.md › Arbeitsweise).
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # Ein einziger Job statt sechs: GitHub rundet jeden Job auf ganze Minuten auf, und die
+  # Actions-Minuten sind knapp (ADR 0006). Die Schritte entsprechen `bun run checks`.
+  checks:
+    runs-on: ${{ vars.RUNNER || 'ubuntu-latest' }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2
+        with:
+          bun-version: "1.4.4"
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+      - run: bun install --frozen-lockfile
+      - name: Tests (Regeln des Clubs)
+        run: bun run test
+      - name: Lint (ESLint + Prettier)
+        run: bun run lint
+      - name: Typecheck (tsc + astro check)
+        run: bun run typecheck
+      - name: Repo-Checks (Konzept ↔ Code, Schlüssel, gepinnte Actions)
+        run: bun run repo-checks
+      - name: Workflows prüfen (zizmor)
+        # Wie MaltVault und Nice Grips: feste Version, eigene venv (läuft auch auf eigenem Runner).
+        run: |
+          python3 -m venv "$RUNNER_TEMP/zizmor"
+          "$RUNNER_TEMP/zizmor/bin/pip" install --quiet zizmor==1.32.0
+          "$RUNNER_TEMP/zizmor/bin/zizmor" --offline --min-severity high .github/workflows
+      - name: Abhängigkeiten ohne bekannte Lücken (keine Ausnahmen)
+        run: bun run audit
+      - name: Website bauen + CSP-Prüfung
+        run: bun run build

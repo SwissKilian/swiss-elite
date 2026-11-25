@@ -1,0 +1,15 @@
+{
+  // Cloudflare Worker "swisselite-website": nur statische Dateien aus dist/, kein
+  // Worker-Code. Sicherheits-Header kommen aus public/_headers.
+  // Noch nicht deployt: Domain und Name des Clubs sind offen (docs/betrieb.md).
+  "name": "swisselite-website",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "force-trailing-slash",
+  },
+  // Sobald die Domain steht: routes ergänzen und workers_dev auf false lassen.
+  "workers_dev": false,
+  "preview_urls": true,
+}

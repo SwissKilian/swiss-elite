@@ -1,0 +1,7 @@
+[install]
+# Exakte Versionen in package.json, keine stillen Updates.
+exact = true
+# 24h-Schutz gegen frisch kompromittierte Pakete (wie MaltVault und Nice Grips).
+minimumReleaseAge = 86400
+# Jeder Eintrag umgeht den Schutz für ein Paket – vorher mit Kilian absprechen.
+minimumReleaseAgeExcludes = []

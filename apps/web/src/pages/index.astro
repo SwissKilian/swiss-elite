@@ -1,0 +1,71 @@
+---
+import {
+  BERNINA,
+  COMMITMENT_MONTHS,
+  LEVELS,
+  SOLITAIRE,
+  formatChf,
+  waitlistMonthlyChf,
+} from "@swisselite/core";
+import Base from "../layouts/Base.astro";
+---
+
+<Base
+  title="Swiss Elite"
+  description="Exklusiver Club aus Chur mit vier Membership-Levels, benannt nach Bündner Gipfeln."
+>
+  <h1>Swiss Elite</h1>
+  <p class="lead">
+    Ein exklusiver Club aus Chur. Vier Levels, benannt nach Bündner Gipfeln, und eine Member-Karte
+    mit Diamant in der Farbe deines Levels.
+  </p>
+
+  <h2>Levels</h2>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Level</th>
+        <th scope="col">Gipfel</th>
+        <th scope="col">Diamant</th>
+        <th scope="col">Pro Monat</th>
+        <th scope="col">Zusätzlich</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        LEVELS.map((level) => (
+          <tr>
+            <th scope="row">{level.name}</th>
+            <td>{level.peak}</td>
+            <td>{level.diamond}</td>
+            <td>{formatChf(level.monthlyChf)}</td>
+            <td>{level.adds}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+  <p>
+    Alle Levels laufen mindestens {COMMITMENT_MONTHS} Monate. Jedes höhere Level enthält alles der Levels
+    darunter.
+  </p>
+
+  <h2>Bernina</h2>
+  <p>
+    Bernina ist auf {BERNINA.maxSeats} Mitglieder begrenzt. Die ersten {BERNINA.openSeats} Plätze gehen
+    an die Schnellsten, danach gibt es Bernina nur auf Einladung. Ein Platz auf der Warteliste kostet
+    {formatChf(waitlistMonthlyChf())} pro Monat.
+  </p>
+
+  <h2>{SOLITAIRE.name}</h2>
+  <p>
+    Das Status-Abzeichen für {formatChf(SOLITAIRE.onceChf)}, einmalig. Mit Member-Karte, ohne Zugang
+    zu den Events.
+  </p>
+
+  <h2>Events</h2>
+  <ul>
+    <li>Ein Treffen pro Quartal in Chur und Umgebung, für alle vier Levels.</li>
+    <li>Das Ultra-Event jedes Jahr am 17. Juni in Graubünden, nur für Bernina.</li>
+  </ul>
+</Base>
