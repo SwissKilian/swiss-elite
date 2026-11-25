@@ -28,10 +28,17 @@ export function canContact(sender: Member, recipient: Member, isReply = false): 
 
 export type EventKind = "quarterly" | "ultra";
 
-/** Quartalstreffen für alle vier Levels, das Ultra-Event nur für Bernina. */
-export function canAttend(member: Member, event: EventKind): boolean {
+/** Jahr des ersten Gründertags. Er steht ausnahmsweise allen vier Levels offen (ADR 0007). */
+export const FIRST_FOUNDERS_DAY_YEAR = 2028;
+
+/**
+ * Quartalstreffen für alle vier Levels, der Gründertag ("ultra") nur für Bernina.
+ * Ausnahme: der erste Gründertag 2028 für alle vier Levels. Solitaire hat nie Event-Zugang.
+ */
+export function canAttend(member: Member, event: EventKind, year?: number): boolean {
   if (member.level === null) return false;
-  return event === "ultra" ? member.level === "bernina" : true;
+  if (event === "ultra") return member.level === "bernina" || year === FIRST_FOUNDERS_DAY_YEAR;
+  return true;
 }
 
 /** Ab Kesch ein Gast pro Quartalstreffen. */

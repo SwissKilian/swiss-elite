@@ -49,7 +49,8 @@ gelten in beiden Phasen. In Phase 1 wendet der Gründer sie von Hand an.
 ## Bernina
 
 - Höchstens 50 Mitglieder.
-- Platz 1 bis 20: wer zuerst kommt.
+- Platz 1 bis 20: wer zuerst kommt. Der Gründerkreis zählt dazu. Stand
+  25.11.2026 sind 5 der ersten 20 Plätze vergeben.
 - Platz 21 bis 50: nur auf Einladung eines Bernina-Mitglieds. Jedes
   Bernina-Mitglied darf höchstens 2 Einladungen pro Jahr vergeben.
 - Ab 50: Warteliste. Ein Platz auf der Liste kostet 50 % des Bernina-Preises
@@ -64,7 +65,7 @@ gelten in beiden Phasen. In Phase 1 wendet der Gründer sie von Hand an.
 
 | Anlass          | Wann                   | Wo                       | Zugang           |
 | --------------- | ---------------------- | ------------------------ | ---------------- |
-| Ultra-Event     | Jedes Jahr am 17. Juni | Graubünden, Ort wechselt | Nur Bernina      |
+| Gründertag      | Jedes Jahr am 17. Juni | Graubünden, Ort wechselt | Nur Bernina      |
 | Quartalstreffen | Einmal pro Quartal     | Chur und Umgebung        | Alle vier Levels |
 
 - Tickets kosten extra und laufen über denselben Zahlungsanbieter wie die
@@ -73,6 +74,18 @@ gelten in beiden Phasen. In Phase 1 wendet der Gründer sie von Hand an.
 - Ab Kesch ein Gast pro Quartalstreffen, mit eigenem Ticket.
 - Check-in per QR-Code auf der Wallet-Karte oder der physischen Karte.
 - Solitaire hat keinen Event-Zugang.
+- Ausnahme: Der erste Gründertag am 17. Juni 2028 steht allen vier Stufen
+  offen. Ab 2029 ist er Bernina vorbehalten (ADR 0007).
+
+## Aufbau bis zum ersten Gründertag
+
+Der erste Anlass überhaupt ist der Gründertag am 17. Juni 2028. Vorher gibt
+es keine Quartalstreffen, der erste Stamm folgt im Herbst 2028 (ADR 0007).
+
+- Bis Ende 2027 reserviert ein Gründerkreis gratis eine Mitgliedsnummer.
+- Von Januar bis April 2028 werden die Stufen nacheinander enthüllt.
+- Anfang Mai 2028 öffnet der Beitritt (Erstbesteigung). Das Abo läuft ab dem
+  Beitritt.
 
 ## Die zwei Karten
 
@@ -101,11 +114,13 @@ hinterlegt.
 
 ## Offene Entscheidungen
 
-- Name des Clubs, Vermarktung und Stil der Website (Marketingkonzept folgt)
+- Name: 4049 ist gewählt, Registerabfrage und Domain stehen aus. Bis dahin
+  heisst das Repo weiter «Swiss Elite»
+- Anrede auf der Website: Sie oder Du
 - Startmarkt: nur Schweiz, DACH oder international
-- Ticketpreise für Quartalstreffen und Ultra-Event
-- Ob das Ultra-Event das Treffen im zweiten Quartal ersetzt oder zusätzlich
-  stattfindet
+- Ticketpreise für Quartalstreffen und Gründertag
+- Ob der Gründertag ab 2029 das Treffen im zweiten Quartal ersetzt oder
+  zusätzlich stattfindet
 - Material, Hersteller und Versandkosten der physischen Karte
 - Wer die neue physische Karte bei einem Levelwechsel bezahlt
 - Ob der Wartelisten-Platz zusätzlich zum bestehenden Level bezahlt wird oder
