@@ -52,7 +52,8 @@ bun run build        # Website bauen + CSP-Prüfung
   `docs/konzept.md` und die Tests im selben PR angepasst. Ein neuer Entscheid
   bekommt ein ADR.
 - Sprache: Doku und Texte auf Deutsch (Schweizer Schreibweise, kein ß),
-  Code und Bezeichner auf Englisch. Preise immer in Franken.
+  Code und Bezeichner auf Englisch. Preise immer in Franken. Texte für
+  Mitglieder immer per Du.
 - Neue Pakete: exakte Version, mindestens 24 Stunden alt (`bunfig.toml`).
 
 ## Regeln, die nie verletzt werden dürfen
@@ -65,7 +66,11 @@ bun run build        # Website bauen + CSP-Prüfung
 3. **Personendaten sparsam.** Lieferadressen nur für den Kartenversand.
 4. **Bernina hat höchstens 50 Mitglieder.** Der Zahlungslink für Bernina ist
    nie öffentlich verlinkt, solange das Kontingent von Hand geführt wird.
-5. **Sichtbarkeit nur nach unten (Phase 2).** Sobald es ein Verzeichnis gibt:
+5. **Der Gründer bleibt anonym.** Kein Name, kein Foto und keine persönliche
+   Spur des Gründers auf der Website, in Metadaten, Commits auf der Website
+   oder in Texten. Absender ist immer der Club, das Impressum nennt die
+   Betreiberfirma (ADR 0008).
+6. **Sichtbarkeit nur nach unten (Phase 2).** Sobald es ein Verzeichnis gibt:
    durchsetzen auf dem Server, mit Tests gegen die Datenbank.
 
 ## Offene Entscheidungen
