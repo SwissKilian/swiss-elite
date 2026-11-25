@@ -1,6 +1,6 @@
 # ADR 0008: Anonymer Gründer und Anrede Du
 
-Datum: 25.11.2026 · Status: entschieden
+Datum: 25.11.2026 · Status: entschieden, teilweise ersetzt durch ADR 0009
 
 ## Entscheid
 
