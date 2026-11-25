@@ -1,0 +1,4 @@
+# Vor dem Launch nicht indexieren. Beim Launch anpassen, zusammen mit
+# X-Robots-Tag in _headers und dem robots-Meta-Tag im Layout.
+User-agent: *
+Disallow: /
