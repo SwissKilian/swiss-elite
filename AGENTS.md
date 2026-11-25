@@ -68,8 +68,9 @@ bun run build        # Website bauen + CSP-Prüfung
    nie öffentlich verlinkt, solange das Kontingent von Hand geführt wird.
 5. **Der Gründer bleibt anonym.** Kein Name, kein Foto und keine persönliche
    Spur des Gründers auf der Website, in Metadaten, Commits auf der Website
-   oder in Texten. Absender ist immer der Club, das Impressum nennt die
-   Betreiberfirma (ADR 0008).
+   oder in Texten. Absender ist immer der Club, unterschrieben wird nur mit
+   «DK». Das Impressum nennt den Verein, vertreten durch Gründungsmitglied 4
+   (ADR 0008, ADR 0009).
 6. **Sichtbarkeit nur nach unten (Phase 2).** Sobald es ein Verzeichnis gibt:
    durchsetzen auf dem Server, mit Tests gegen die Datenbank.
 

@@ -17,9 +17,11 @@ App Store (ADR 0001).
 
 ## Der Gründer
 
-Der Gründer bleibt anonym, auch am Gründertag (ADR 0008). Der Club spricht als
-«4049», Vertragspartner und Impressum ist eine Betreiberfirma. Die Anrede ist
-überall Du.
+Der Gründer bleibt anonym, auch am Gründertag (ADR 0008). Er ist nur als «DK»
+bekannt und unterschreibt nur so. Der Club spricht als «4049». Träger ist ein
+Verein der fünf Gründungsmitglieder. Vertragspartner und Impressum ist der
+Verein, vertreten durch Gründungsmitglied 4 (ADR 0009). Mitwisser sind nur die
+fünf Gründungsmitglieder. Die Anrede ist überall Du.
 
 ## Zwei Phasen
 
@@ -55,8 +57,9 @@ gelten in beiden Phasen. In Phase 1 wendet der Gründer sie von Hand an.
 ## Bernina
 
 - Höchstens 50 Mitglieder.
-- Platz 1 bis 20: wer zuerst kommt. Der Gründerkreis zählt dazu. Stand
-  25.11.2026 sind 5 der ersten 20 Plätze vergeben.
+- Platz 1 bis 20: wer zuerst kommt. Der Gründerkreis zählt dazu. 5 der
+  ersten 20 Plätze sind für die Gründungsmitglieder vorgesehen. Stand
+  25.11.2026 ist noch niemand angefragt.
 - Platz 21 bis 50: nur auf Einladung eines Bernina-Mitglieds. Jedes
   Bernina-Mitglied darf höchstens 2 Einladungen pro Jahr vergeben.
 - Ab 50: Warteliste. Ein Platz auf der Liste kostet 50 % des Bernina-Preises
@@ -132,4 +135,7 @@ hinterlegt.
 - Ob der Wartelisten-Platz zusätzlich zum bestehenden Level bezahlt wird oder
   ein eigenes Level ist
 - Aufnahme für alle, die zahlen, oder mit Bewerbung und Prüfung
-- Betreiberfirma und rechtliche Prüfung von AGB und Datenschutz
+- Statuten des Vereins und Handelsregisterpflicht mit einer Fachperson klären
+- Rechtliche Prüfung von AGB und Datenschutz
+- Wer die fünf Gründungsmitglieder sind
+- Ob DK sich einmal selbst enthüllt

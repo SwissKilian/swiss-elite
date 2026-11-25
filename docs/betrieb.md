@@ -4,15 +4,15 @@ Stand 25.11.2026. Noch nichts ist live. Diese Liste wächst mit dem Projekt.
 
 ## Vor dem ersten Verkauf
 
-| Was                                                                   | Wer               | Wozu                                                          |
-| --------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------- |
-| Name und Domain                                                       | Kilian            | Kommt mit dem Marketingkonzept                                |
-| Betreiberfirma                                                        | Kilian            | Vertragspartner der Mitglieder                                |
-| AGB und Datenschutz prüfen lassen                                     | Kilian            | 12-Monats-Bindung, Wartelisten-Gebühr, Freigabe nach Ermessen |
-| Stripe-Konto auf die Firma                                            | Kilian            | Abos, Solitaire, Tickets, Versandkosten                       |
-| Cloudflare: Worker `swisselite-website` mit Workers Builds aus GitHub | Kilian mit Claude | Hosting der Website                                           |
-| Apple-Entwicklerkonto                                                 | Kilian            | Wallet-Karte fürs iPhone                                      |
-| Hersteller der physischen Karte                                       | Kilian            | Muster pro Level, Versandkosten                               |
+| Was                                                                   | Wer                 | Wozu                                                            |
+| --------------------------------------------------------------------- | ------------------- | --------------------------------------------------------------- |
+| Name und Domain                                                       | Kilian              | Kommt mit dem Marketingkonzept                                  |
+| Verein mit Statuten gründen                                           | Gründungsmitglieder | Träger und Vertragspartner, vertreten durch Gründungsmitglied 4 |
+| AGB und Datenschutz prüfen lassen                                     | Kilian              | 12-Monats-Bindung, Wartelisten-Gebühr, Freigabe nach Ermessen   |
+| Stripe-Konto und Bank auf den Verein                                  | Gründungsmitglied 4 | Abos, Solitaire, Tickets, Versandkosten                         |
+| Cloudflare: Worker `swisselite-website` mit Workers Builds aus GitHub | Kilian mit Claude   | Hosting der Website                                             |
+| Apple-Entwicklerkonto                                                 | Kilian              | Wallet-Karte fürs iPhone                                        |
+| Hersteller der physischen Karte                                       | Kilian              | Muster pro Level, Versandkosten                                 |
 
 ## Zahlungslinks in Stripe (Phase 1)
 

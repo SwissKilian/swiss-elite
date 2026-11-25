@@ -11,8 +11,8 @@ Datum: 25.11.2026 · Status: entschieden
 - Bis Ende 2027 reserviert ein Gründerkreis gratis eine Mitgliedsnummer.
 - Der Beitritt öffnet Anfang Mai 2028 (Erstbesteigung). Das Abo läuft ab dem
   Beitritt.
-- Der Gründerkreis zählt zu den ersten 20 Bernina-Plätzen. Stand 25.11.2026
-  sind 5 davon vergeben.
+- Der Gründerkreis zählt zu den ersten 20 Bernina-Plätzen. 5 davon sind für
+  die Gründungsmitglieder vorgesehen (Korrektur in ADR 0009).
 - Der Aufbau läuft in sechs Etappen mit Toren: Fundament, Gründerkreis (still),
   Enthüllung in Etappen, Erstbesteigung, Gründertag, Laut werden. Kommen bis
   Ende 2027 keine 20 Reservationen zusammen, geht der Club nicht öffentlich.
