@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   BERNINA,
+  FIRST_FOUNDERS_DAY_YEAR,
   LEVELS,
   SOLITAIRE,
   berninaDecision,
@@ -79,6 +80,15 @@ describe("Events", () => {
       expect(canAttend(member(id), "quarterly")).toBe(true);
       expect(canAttend(member(id), "ultra")).toBe(id === "bernina");
     }
+  });
+
+  it("öffnet den ersten Gründertag 2028 allen vier Levels, danach nur Bernina", () => {
+    for (const id of ids) {
+      expect(canAttend(member(id), "ultra", FIRST_FOUNDERS_DAY_YEAR)).toBe(true);
+      expect(canAttend(member(id), "ultra", 2029)).toBe(id === "bernina");
+    }
+    expect(FIRST_FOUNDERS_DAY_YEAR).toBe(2028);
+    expect(canAttend(member(null, true), "ultra", FIRST_FOUNDERS_DAY_YEAR)).toBe(false);
   });
 
   it("gibt Solitaire keinen Event-Zugang", () => {
