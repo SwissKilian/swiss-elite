@@ -4,7 +4,7 @@ Datum: 25.11.2026 · Status: entschieden
 
 ## Entscheid
 
-- Der erste Anlass des Clubs ist der Gründertag am 17. Juni 2028. Vorher gibt
+- Der erste Anlass des Clubs ist der Gründertag am 18. Juni 2028. Vorher gibt
   es keine Quartalstreffen, der erste Stamm folgt im Herbst 2028.
 - Der erste Gründertag steht allen vier Stufen offen. Ab 2029 ist er Bernina
   vorbehalten. Solitaire hat weiterhin keinen Event-Zugang.
