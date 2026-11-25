@@ -15,6 +15,12 @@ separat verrechnet und stehen nur Mitgliedern offen.
 Der Club läuft über eine eigene Website mit eigener Zahlung, nicht über den
 App Store (ADR 0001).
 
+## Der Gründer
+
+Der Gründer bleibt anonym, auch am Gründertag (ADR 0008). Der Club spricht als
+«4049», Vertragspartner und Impressum ist eine Betreiberfirma. Die Anrede ist
+überall Du.
+
 ## Zwei Phasen
 
 |                                             | Phase 1 (Start)                            | Phase 2 (später)                       |
